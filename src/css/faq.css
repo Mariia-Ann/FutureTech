@@ -1,0 +1,78 @@
+.faq-section {
+  padding-top: 82px;
+  padding-bottom: 82px;
+}
+.faq-title {
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: var(--color-text-title);
+  margin-bottom: 32px;
+}
+.faq-list {
+  border-bottom: 1px solid var(--color-text-title);
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  gap: 20px;
+  height: auto;
+}
+.faq-list::before {
+  width: 584px;
+  height: 0px;
+  transform: rotate(-90deg);
+  flex-shrink: 0;
+  /* content: '';
+  position: absolute;
+  left: 688px; /* Відступ ліворуч 
+  top: 0;
+  bottom: 0;
+  width: 2px; /* Товщина лінії 
+  background-color: var(--color-text-title); Колір лінії */
+}
+.faq-item {
+  /* width: calc((100% - 64px) / 2); */
+  padding: 20px 0;
+  border-top: 1px solid var(--color-text-title);
+  /* position: relative; */
+}
+
+.faq-subtext {
+  /* width: 656px; */
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: -0.02em;
+  color: var(--color-text);
+  margin-bottom: 32px;
+}
+
+.faq-container {
+  display: flex;
+  gap: 10px;
+}
+.faq-vector {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--color-text-title);
+  border-radius: 50%;
+}
+.faq-vector-icon {
+  stroke: var(--color-text);
+}
+.faq-text {
+  letter-spacing: -0.02em;
+  color: var(--color-text-tr);
+}
+.hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
